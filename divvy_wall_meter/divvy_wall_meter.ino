@@ -38,8 +38,8 @@ void setup()
       delay(1000);
       Serial.println("connecting...");
   
-      pinMode(led, OUTPUT);    
-      digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+      pinMode(ledPin, OUTPUT);    
+      digitalWrite(ledPin, HIGH);   // turn the LED on (HIGH is the voltage level)
        
 }
 
